@@ -1,0 +1,92 @@
+@font-face{
+  font-family:"BungeeS"; src:url("fonts/BungeeShade-Regular.ttf")
+}
+
+@font-face{
+  font-family:"BarlowC"; src:url("fonts/BarlowCondensed-Regular.ttf")
+}
+
+@font-face{
+  font-family:"BungeeO"; src:url("fonts/BungeeOutline-Regular.ttf")
+}
+
+@font-face{
+  font-family:"BarlowCM"; src:url("fonts/BarlowCondensed-Medium.ttf")
+}
+
+@font-face{
+  font-family:"BarlowCM"; src:url("fonts/BarlowCondensed-SemiBold.ttf")
+}
+
+*{
+  box-sizing:border-box;
+  margin:0;
+}
+
+body{
+  background-image: url("images/background.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  margin:60px;
+}
+
+body div:first-of-type{
+  background-color:rgba(0, 0, 0, 0.398);
+  border-radius:20px;
+  padding:15px;
+}
+
+div h1{
+  font-family:"BungeeS";
+  color:rgba(255, 255, 255, 0.768);
+  font-size:70px;
+  padding:10px;
+}
+
+nav{
+  display:flex;
+  gap:5px;
+  margin:50px 0;
+}
+
+nav a{
+  text-decoration:none;
+  color:rgba(0, 0, 0, 0.699);
+  font-family:"BarlowC";
+  font-size:30px;
+
+  background-color:rgba(255, 255, 255, 0.567);
+  padding:20px;
+  border-radius:20px;
+
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  flex-grow:1;
+  flex-basis:0;
+}
+
+nav a:nth-of-type(2){
+  font-family:"BarlowCM";
+  color:black;
+  box-shadow: 0 0 10px 6px rgba(255, 255, 255, 0.504);
+  border: 1px solid rgb(228, 227, 227);
+}
+
+main div:first-of-type{
+  border: 1px solid white;
+}
+
+main div:first-of-type h2{
+  font-family:"BungeeO";
+  color:rgba(255, 255, 255, 0.768);
+  font-size:30px;
+}
+
+main div:first-of-type h3{
+  font-family:"BarlowCM";
+  color:rgba(255, 255, 255, 0.768);
+  font-size:25px;
+
+}
