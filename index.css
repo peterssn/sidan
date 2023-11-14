@@ -143,10 +143,26 @@ section:first-of-type > div:nth-child(2) div:first-child{
   grid-column:1/3;
   grid-row:1/3;
 
-  background-image: url("images/baby_one_more_time.png");
-  background-size:cover;
-  background-position:top;
+  position:relative;
+}
+
+img{
+  object-fit:cover;
+  object-position:top;
+  width:100%;
+  height:100%;
+  position:absolute;
   border-radius:20px 20px 0px 0px;
+}
+
+.transition-img{
+  transition: opacity 1s;
+  opacity: 1;
+  z-index: 1;
+}
+
+div img:hover{
+  opacity:0;
 }
 
 section:first-of-type > div:nth-of-type(2) > div:nth-of-type(2), section > div:nth-of-type(2) > div:nth-of-type(3){
