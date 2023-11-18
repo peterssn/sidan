@@ -30,6 +30,9 @@ body{
   background-attachment: fixed;
   background-position:center;
   margin:80px;
+
+  display:flex;
+  justify-content:center;
 }
 
 body > div:first-child{
